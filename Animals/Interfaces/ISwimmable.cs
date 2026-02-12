@@ -3,11 +3,11 @@ using System;
 namespace AnimalsOOPClass.Animals.Interfaces
 {
     /// <summary>
-    /// Contract to say "I am able to run".
+    /// Contract to say "I am able to swim".
     /// The implementing class is required to provide how they do this.
     /// </summary>
-    public interface IRunnable
+    public interface ISwimmable
     {
-        public void Run();
+        public void Swim();
     }
 }

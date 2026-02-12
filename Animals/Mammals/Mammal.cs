@@ -2,6 +2,12 @@ using System;
 
 namespace AnimalsOOPClass.Animals.Mammals
 {
+    /// <summary>
+    /// Base class for all Mammals, inherits from Animal.
+    /// 
+    /// It extends to include fur and the ability to make a nurse young.
+    ///
+    /// </summary>
     public abstract class Mammal : Animal // A mammal IS-A animal
     {
         // Extended state

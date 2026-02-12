@@ -2,12 +2,19 @@ using System;
 
 namespace AnimalsOOPClass.Animals.Birds
 {
-    public class Bird : Animal
+    /// <summary>
+    /// Base class for all Birds, inherits from Animal.
+    /// 
+    /// It extends to include Wingspan and the ability to make a nest.
+    ///
+    /// It implements the MakeNoise() method from Animal (even though we are still in an abstract class - it just forces it on non-abstract classes)
+    /// </summary>
+    public abstract class Bird : Animal
     {
         // Extended state
         public int WingSpanCm { get; }
 
-        public Bird(string name, int wingSpanCm) : base(name)
+        public Bird(string name, int wingSpanCm) : base(name) // We send Name to the parent (base = Animal). This is code sharing.
         {
             WingSpanCm = wingSpanCm;
         }

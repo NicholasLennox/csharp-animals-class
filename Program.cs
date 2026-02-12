@@ -28,7 +28,7 @@ internal class Program
         pauly.MakeNoise();
         
 
-        List<ISwimable> swimmers = new List<ISwimable>();
+        List<ISwimmable> swimmers = new List<ISwimmable>();
         swimmers.Add(pauly);
         swimmers.Add(eagly);
         swimmers.Add(pluto);
